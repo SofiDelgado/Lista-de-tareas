@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+th, td{
+    border: 1px solid #ffffff;
+    padding: 5px;
+}

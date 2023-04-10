@@ -11,8 +11,32 @@
 </head>
 <body>
     <header></header>
-    <main></main>
-    <footer></footer>
+    <main class="bg-danger bg-gradient fs-5">
+        <div class="m-5 p-4 border border-1 border-black d-flex justify-content-center">
+            <label class="me-2">Ingrese una tarea: </label>
+            <input type="text" placeholder="Escribir..." class="me-2">
+            <button type="submit" class="btn btn-dark" id="agregar" onclick="agregarTarea()">Aceptar</button>
+        </div>
+<section class="d-flex justify-content-center" >
+<ul>
+    <table id="tablaTarea">
+        <thead>
+            <tr>
+                <th>Tarea</th>
+                <th>Borrar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+</ul>
+</section>
+    </main>
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; Todos los derechos reservados</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
